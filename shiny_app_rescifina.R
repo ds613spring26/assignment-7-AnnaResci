@@ -13,7 +13,7 @@ ui <- fluidPage(
       
       selectInput("plot_type", "Choose plot type:",
                   choices = c("Histogram", "Boxplot")),
-      
+# Added Color Selector       
       selectInput("color", "Choose color (for boxplot):",
                   choices = c("red", "blue", "green", "gray"))
     ),
