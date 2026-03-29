@@ -6,6 +6,7 @@ library(shiny)
 ui <- fluidPage(
   titlePanel("Anna Rescifina"),
   
+# Added Plot Type Selector  
   sidebarLayout(
     sidebarPanel(
       numericInput("n", "Number of observations:", 200),
