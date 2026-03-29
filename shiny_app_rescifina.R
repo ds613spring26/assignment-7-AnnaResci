@@ -23,7 +23,7 @@ ui <- fluidPage(
     )
   )
 )
-
+# Added Plot Switching Logic
 server <- function(input, output) {
   output$plot <- renderPlot({
     data <- runif(input$n)
